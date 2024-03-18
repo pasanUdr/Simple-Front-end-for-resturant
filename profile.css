@@ -1,0 +1,141 @@
+body {
+    margin: 0px;
+    margin-top: 0px;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    margin: 0px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(12, 156, 125);
+}
+
+.active {
+    background-color: tomato;
+}
+
+.div1 {
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(224, 223, 223);
+}
+
+.pro-img1 {
+    position: absolute;
+    width: 30%;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+.t1 {
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 500px;
+}
+
+.div2 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 800px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.input1 {
+    width: 400px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding-left: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: brown;
+    outline-color: chocolate;
+    outline-width: 5px;
+}
+
+.button1 {
+    width: 200px;
+    height: 40px;
+    margin-top: 45px;
+    margin-left: 150px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(4, 0, 255);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.button1:hover {
+    cursor: pointer;
+    background-color: rgb(47, 124, 240);
+}
+
+.a1 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 185px;
+    text-decoration: none;
+    color: rgb(99, 7, 7);
+}
+
+.a1:hover {
+    text-decoration: underline;
+}
+
+.hr1 {
+    margin-top: 80px;
+    width: 480px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: brown;
+}
+
+.h1 {
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+
+.button2 {
+    width: 250px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 125px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 10px;
+}
+
+.button2:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    transition-duration: 1s;
+    background-color: rgb(106, 126, 66);
+}

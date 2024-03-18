@@ -1,0 +1,198 @@
+body {
+    margin: 0px;
+}
+
+.bg-image {
+    background-image: url("Untitled-2.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.nav1 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 500px;
+}
+
+.ul1 {
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.active {
+    background-color: tomato;
+}
+
+.li1 {
+    float: left;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.a1 {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.a1:hover:not(.active) {
+    cursor: pointer;
+    background-color: blanchedalmond;
+    color: black;
+    text-decoration: underline;
+}
+
+.img1 {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(112, 21, 4);
+    margin-top: 120px;
+    margin-left: 550px;
+}
+
+.h1 {
+    position: absolute;
+    font-family: ROG Fonts;
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 590px;
+    margin-top: 5px;
+}
+
+.p1 {
+    position: absolute;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 465px;
+    color: white;
+}
+
+.div2 {
+    position: absolute;
+    width: 900px;
+    height: 505px;
+    background-image: url(bigstock-Food-Delivery-Service-For-Orde-311223094.jpg);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 2%;
+    opacity: 0.6;
+}
+
+.div2:hover {
+    opacity: 1;
+}
+
+.div3 {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 970px;
+    font-size: 30px;
+}
+
+.ul2 {
+    line-height: 60px;
+}
+
+.div4 {
+    position: absolute;
+    background-image: url(rowan-freeman-clYlmCaQbzY-unsplash-7.jpg);
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 550px;
+    border-radius: 20px;
+    margin-left: 700px;
+    margin-top: 600px;
+}
+
+.div5 {
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    border: none;
+    margin-top: 800px;
+    margin-left: 150px;
+    font-size: 30px;
+}
+
+.div5:hover {
+    transform: scale(1.7);
+    transition-duration: 1s;
+}
+
+.ul3 {
+    list-style-type: square;
+    line-height: 50px;
+}
+
+.div6 {
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    background-image: url(Food-truck.jpg);
+    margin-top: 1200px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 20px;
+    opacity: 0.2;
+}
+
+.p2 {
+    text-align: center;
+    color: lightblue;
+    font-size: 40px;
+    margin-top: 400px;
+}
+
+.div6:hover {
+    opacity: 1;
+}
+
+.div7 {
+    position: absolute;
+    width: 500px;
+    height: 380px;
+    border-color: rgb(36, 56, 235);
+    border-style: solid;
+    border-radius: 30px;
+    background-color: rgb(182, 218, 240);
+    margin-top: 1250px;
+    margin-left: 980px;
+}
+
+.a2 {
+    font-weight: bold;
+}
+
+.p3 {
+    padding: 20px;
+    text-indent: 50px;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.img2 {
+    position: absolute;
+    margin-top: 1800px;
+    margin-left: 250px;
+    border-radius: 20px;
+}
+
+.t1 {
+    font-weight: 500;
+    position: absolute;
+    margin-top: 2500px;
+    margin-left: 400px;
+}
+
+.t2 {
+    font-weight: 600;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 2550px;
+}

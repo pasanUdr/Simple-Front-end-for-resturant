@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(12, 156, 125);
+}
+
+.active {
+    background-color: tomato;
+}
+
+.div1 {
+    background-image: url(5-Benefits-of-Food-Delivery-Service.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+}
+
+.contact-details {
+    position: absolute;
+    background-color: lightblue;
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+.details {
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.message {
+    position: absolute;
+    width: 600px;
+    height: 520px;
+    background-color: rgb(180, 120, 40);
+    margin-top: 90px;
+    margin-left: 900px;
+    border: none;
+    border-radius: 10px;
+}
+
+.input {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.input2 {
+    width: 300px;
+}
+
+.textarea {
+    width: 500px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.button {
+    margin-left: 450px;
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: yellowgreen;
+    color: white;
+}
+
+.button:hover {
+    cursor: pointer;
+}

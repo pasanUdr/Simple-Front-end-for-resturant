@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+}
+
+.navbar {
+    margin-top: 0px;
+    list-style-type: none;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(12, 156, 125);
+}
+
+.active {
+    background-color: tomato;
+}
+
+.h1 {
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+}
+
+.h2 {
+    font-size: 30px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.div1 {
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.para {
+    padding: 20px;
+    text-indent: 50px;
+    font-size: 20px;
+}
